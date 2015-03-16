@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73BC6F2B070F465F52B80965 /* MPLagometer+SharedLagometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BC606BC5CDF06950E76791 /* MPLagometer+SharedLagometer.m */; };
+		C5D049FD1AB6BC6D00946DC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D049FC1AB6BC6D00946DC2 /* main.m */; };
+		C5D04A001AB6BC6D00946DC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D049FF1AB6BC6D00946DC2 /* AppDelegate.m */; };
+		C5D04A031AB6BC6D00946DC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D04A021AB6BC6D00946DC2 /* ViewController.m */; };
+		C5D04A061AB6BC6D00946DC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D04A041AB6BC6D00946DC2 /* Main.storyboard */; };
+		C5D04A081AB6BC6D00946DC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D04A071AB6BC6D00946DC2 /* Images.xcassets */; };
+		C5D04A0B1AB6BC6D00946DC2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D04A091AB6BC6D00946DC2 /* LaunchScreen.xib */; };
+		C5D04A171AB6BC6D00946DC2 /* MPLagometerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D04A161AB6BC6D00946DC2 /* MPLagometerTests.m */; };
+		C5D04A221AB6BD1200946DC2 /* MPLagometer.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D04A211AB6BD1200946DC2 /* MPLagometer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5D04A111AB6BC6D00946DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5D049EF1AB6BC6D00946DC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D049F61AB6BC6D00946DC2;
+			remoteInfo = MPLagometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73BC606BC5CDF06950E76791 /* MPLagometer+SharedLagometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPLagometer+SharedLagometer.m"; sourceTree = "<group>"; };
+		73BC60AD7FCA7B2E30A2C2FF /* MPLagometer+SharedLagometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPLagometer+SharedLagometer.h"; sourceTree = "<group>"; };
+		C5D049F71AB6BC6D00946DC2 /* MPLagometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPLagometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D049FB1AB6BC6D00946DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D049FC1AB6BC6D00946DC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5D049FE1AB6BC6D00946DC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5D049FF1AB6BC6D00946DC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5D04A011AB6BC6D00946DC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5D04A021AB6BC6D00946DC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5D04A051AB6BC6D00946DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5D04A071AB6BC6D00946DC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C5D04A0A1AB6BC6D00946DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C5D04A101AB6BC6D00946DC2 /* MPLagometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPLagometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D04A151AB6BC6D00946DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D04A161AB6BC6D00946DC2 /* MPLagometerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPLagometerTests.m; sourceTree = "<group>"; };
+		C5D04A201AB6BD1200946DC2 /* MPLagometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPLagometer.h; sourceTree = "<group>"; };
+		C5D04A211AB6BD1200946DC2 /* MPLagometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPLagometer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5D049F41AB6BC6D00946DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D04A0D1AB6BC6D00946DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5D049EE1AB6BC6D00946DC2 = {
+			isa = PBXGroup;
+			children = (
+				C5D049F91AB6BC6D00946DC2 /* MPLagometer */,
+				C5D04A131AB6BC6D00946DC2 /* MPLagometerTests */,
+				C5D049F81AB6BC6D00946DC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5D049F81AB6BC6D00946DC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5D049F71AB6BC6D00946DC2 /* MPLagometer.app */,
+				C5D04A101AB6BC6D00946DC2 /* MPLagometerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5D049F91AB6BC6D00946DC2 /* MPLagometer */ = {
+			isa = PBXGroup;
+			children = (
+				C5D049FE1AB6BC6D00946DC2 /* AppDelegate.h */,
+				C5D049FF1AB6BC6D00946DC2 /* AppDelegate.m */,
+				C5D04A011AB6BC6D00946DC2 /* ViewController.h */,
+				C5D04A021AB6BC6D00946DC2 /* ViewController.m */,
+				C5D04A041AB6BC6D00946DC2 /* Main.storyboard */,
+				C5D04A071AB6BC6D00946DC2 /* Images.xcassets */,
+				C5D04A091AB6BC6D00946DC2 /* LaunchScreen.xib */,
+				C5D049FA1AB6BC6D00946DC2 /* Supporting Files */,
+				C5D04A201AB6BD1200946DC2 /* MPLagometer.h */,
+				C5D04A211AB6BD1200946DC2 /* MPLagometer.m */,
+				73BC606BC5CDF06950E76791 /* MPLagometer+SharedLagometer.m */,
+				73BC60AD7FCA7B2E30A2C2FF /* MPLagometer+SharedLagometer.h */,
+			);
+			path = MPLagometer;
+			sourceTree = "<group>";
+		};
+		C5D049FA1AB6BC6D00946DC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5D049FB1AB6BC6D00946DC2 /* Info.plist */,
+				C5D049FC1AB6BC6D00946DC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5D04A131AB6BC6D00946DC2 /* MPLagometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5D04A161AB6BC6D00946DC2 /* MPLagometerTests.m */,
+				C5D04A141AB6BC6D00946DC2 /* Supporting Files */,
+			);
+			path = MPLagometerTests;
+			sourceTree = "<group>";
+		};
+		C5D04A141AB6BC6D00946DC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5D04A151AB6BC6D00946DC2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5D049F61AB6BC6D00946DC2 /* MPLagometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D04A1A1AB6BC6D00946DC2 /* Build configuration list for PBXNativeTarget "MPLagometer" */;
+			buildPhases = (
+				C5D049F31AB6BC6D00946DC2 /* Sources */,
+				C5D049F41AB6BC6D00946DC2 /* Frameworks */,
+				C5D049F51AB6BC6D00946DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPLagometer;
+			productName = MPLagometer;
+			productReference = C5D049F71AB6BC6D00946DC2 /* MPLagometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5D04A0F1AB6BC6D00946DC2 /* MPLagometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D04A1D1AB6BC6D00946DC2 /* Build configuration list for PBXNativeTarget "MPLagometerTests" */;
+			buildPhases = (
+				C5D04A0C1AB6BC6D00946DC2 /* Sources */,
+				C5D04A0D1AB6BC6D00946DC2 /* Frameworks */,
+				C5D04A0E1AB6BC6D00946DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5D04A121AB6BC6D00946DC2 /* PBXTargetDependency */,
+			);
+			name = MPLagometerTests;
+			productName = MPLagometerTests;
+			productReference = C5D04A101AB6BC6D00946DC2 /* MPLagometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5D049EF1AB6BC6D00946DC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Maxim Pervushin";
+				TargetAttributes = {
+					C5D049F61AB6BC6D00946DC2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C5D04A0F1AB6BC6D00946DC2 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C5D049F61AB6BC6D00946DC2;
+					};
+				};
+			};
+			buildConfigurationList = C5D049F21AB6BC6D00946DC2 /* Build configuration list for PBXProject "MPLagometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5D049EE1AB6BC6D00946DC2;
+			productRefGroup = C5D049F81AB6BC6D00946DC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5D049F61AB6BC6D00946DC2 /* MPLagometer */,
+				C5D04A0F1AB6BC6D00946DC2 /* MPLagometerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5D049F51AB6BC6D00946DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D04A061AB6BC6D00946DC2 /* Main.storyboard in Resources */,
+				C5D04A0B1AB6BC6D00946DC2 /* LaunchScreen.xib in Resources */,
+				C5D04A081AB6BC6D00946DC2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D04A0E1AB6BC6D00946DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5D049F31AB6BC6D00946DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D04A031AB6BC6D00946DC2 /* ViewController.m in Sources */,
+				C5D04A221AB6BD1200946DC2 /* MPLagometer.m in Sources */,
+				C5D04A001AB6BC6D00946DC2 /* AppDelegate.m in Sources */,
+				C5D049FD1AB6BC6D00946DC2 /* main.m in Sources */,
+				73BC6F2B070F465F52B80965 /* MPLagometer+SharedLagometer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D04A0C1AB6BC6D00946DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D04A171AB6BC6D00946DC2 /* MPLagometerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5D04A121AB6BC6D00946DC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5D049F61AB6BC6D00946DC2 /* MPLagometer */;
+			targetProxy = C5D04A111AB6BC6D00946DC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5D04A041AB6BC6D00946DC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5D04A051AB6BC6D00946DC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5D04A091AB6BC6D00946DC2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5D04A0A1AB6BC6D00946DC2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5D04A181AB6BC6D00946DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5D04A191AB6BC6D00946DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5D04A1B1AB6BC6D00946DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MPLagometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5D04A1C1AB6BC6D00946DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MPLagometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5D04A1E1AB6BC6D00946DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MPLagometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPLagometer.app/MPLagometer";
+			};
+			name = Debug;
+		};
+		C5D04A1F1AB6BC6D00946DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MPLagometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPLagometer.app/MPLagometer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5D049F21AB6BC6D00946DC2 /* Build configuration list for PBXProject "MPLagometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D04A181AB6BC6D00946DC2 /* Debug */,
+				C5D04A191AB6BC6D00946DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D04A1A1AB6BC6D00946DC2 /* Build configuration list for PBXNativeTarget "MPLagometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D04A1B1AB6BC6D00946DC2 /* Debug */,
+				C5D04A1C1AB6BC6D00946DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5D04A1D1AB6BC6D00946DC2 /* Build configuration list for PBXNativeTarget "MPLagometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D04A1E1AB6BC6D00946DC2 /* Debug */,
+				C5D04A1F1AB6BC6D00946DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5D049EF1AB6BC6D00946DC2 /* Project object */;
+}
